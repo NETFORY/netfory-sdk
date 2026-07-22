@@ -38,7 +38,7 @@ async function unlock() {
 </script>
 ```
 
-4. Publish your built `dist/` through **SmartNet → My DApps → Publish** -
+4. Publish your built `dist/` through **SmartNet > My DApps > Publish** -
    your app becomes reachable at `sth://<appId>/` and every asset is seeded
    by the P2P swarm. Seeders earn Byte-Hours for distributing it; you earn
    STH from payments the SDK routes straight to your address.
@@ -54,5 +54,5 @@ async function unlock() {
 Everything degrades gracefully in a normal browser: `isSmartNet` is `false`,
 wallet calls reject with a friendly error, HTTP fallbacks are used.
 
-Full integration guide: [`docs/10-SmartNet-App-SDK.md`](../docs/10-SmartNet-App-SDK.md)
-Networking (api:// / ws tunnel) details: [`docs/08-dApp-Networking-Guide.md`](../docs/08-dApp-Networking-Guide.md)
+Full integration guide: [`docs/10-SmartNet-App-SDK.md`](./docs/10-SmartNet-App-SDK.md)
+Networking (api:// / ws tunnel) details: [`docs/08-dApp-Networking-Guide.md`](./docs/08-dApp-Networking-Guide.md)

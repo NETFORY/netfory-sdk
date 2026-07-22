@@ -17,7 +17,7 @@ loads relative, so the built `dist/` works over `sth://` out of the box.
 cd smartnet-sdk/example-app
 yarn install
 yarn dev        # develop in a browser (web fallback mode)
-yarn build      # → dist/ ready for publishing
+yarn build      # > dist/ ready for publishing
 ```
 
 ## Make it yours
@@ -27,7 +27,7 @@ yarn build      # → dist/ ready for publishing
    - `NODE_ID` / `PROVIDER` - your P2P backend (optional, leave empty for client-only)
    - `SUB_PLAN` / prices / `ITEM_SKU` - your monetization catalog
 2. `yarn build`
-3. Publish `dist/` via **SmartNet → My DApps → Publish** - your app becomes
+3. Publish `dist/` via **SmartNet > My DApps > Publish** - your app becomes
    `sth://<appId>/`, seeded by the swarm.
 
 ## Structure

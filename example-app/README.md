@@ -35,12 +35,12 @@ yarn build      # -> dist/ ready for publishing
 ```
 example-app/
 ├── src/
-│   ├── config.ts          ← ALL replace-me values live here
-│   ├── smartnet/          ← the SDK (copy of ../src, runtime reads config.ts)
-│   ├── components/        ← one panel per SDK area + neon UI primitives
-│   ├── App.vue            ← layout, background layers, header
-│   └── style.css          ← cyber-neon design system (Tailwind + custom CSS)
-├── vite.config.ts         ← base: './' (required for sth://)
+│   ├── config.ts          <- ALL replace-me values live here
+│   ├── smartnet/          <- the SDK (copy of ../src, runtime reads config.ts)
+│   ├── components/        <- one panel per SDK area + neon UI primitives
+│   ├── App.vue            <- layout, background layers, header
+│   └── style.css          <- cyber-neon design system (Tailwind + custom CSS)
+├── vite.config.ts         <- base: './' (required for sth://)
 └── tailwind.config.js
 ```
 

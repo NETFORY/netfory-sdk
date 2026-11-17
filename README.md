@@ -1,21 +1,21 @@
-# SmartNet App SDK (Vue 3 template)
+# NETFORY App SDK (Vue 3 template)
 
-Turn any Vue frontend into a **monetized SmartNet dApp** in minutes:
-wallet connect, STH payments & subscriptions, and P2P storage — with zero
+Turn any Vue frontend into a **monetized Netfory dApp** in minutes:
+wallet connect, STH payments & subscriptions, and P2P storage - with zero
 backend code required for the wallet flows.
 
 ```
 netfory-sdk/
 ├── src/
-│   ├── index.ts               — single import surface
-│   ├── smartnet-env.d.ts      — global typings (window.__SMARTNET__, window.smartholdem)
-│   ├── runtime.ts             — SmartNet detection + api:// / https backend switch
-│   ├── bridge.ts              — low-level, promise-based wallet bridge access
-│   ├── useSmartNetWallet.ts   — composable: connect / sign / open wallet panel
-│   ├── usePayments.ts         — composable: one-off payments, subscriptions, verification
-│   └── useStorage.ts          — composable: P2P file reads (f://) + namespaced local KV
+│   ├── index.ts               - single import surface
+│   ├── smartnet-env.d.ts      - global typings (window.__SMARTNET__, window.smartholdem)
+│   ├── runtime.ts             - SmartNet detection + api:// / https backend switch
+│   ├── bridge.ts              - low-level, promise-based wallet bridge access
+│   ├── useSmartNetWallet.ts   - composable: connect / sign / open wallet panel
+│   ├── usePayments.ts         - composable: one-off payments, subscriptions, verification
+│   └── useStorage.ts          - composable: P2P file reads (f://) + namespaced local KV
 └── example/
-    └── MonetizedApp.vue       — a complete paywalled mini-app in ~100 lines
+    └── MonetizedApp.vue       - a complete paywalled mini-app in ~100 lines
 ```
 
 ## Quick start
@@ -38,7 +38,7 @@ async function unlock() {
 </script>
 ```
 
-4. Publish your built `dist/` through **SmartNet → My DApps → Publish** —
+4. Publish your built `dist/` through **SmartNet → My DApps → Publish** -
    your app becomes reachable at `sth://<appId>/` and every asset is seeded
    by the P2P swarm. Seeders earn Byte-Hours for distributing it; you earn
    STH from payments the SDK routes straight to your address.
